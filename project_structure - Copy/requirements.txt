@@ -41,7 +41,6 @@ hdbscan
 ############################################################
 # STORAGE / SERIALIZATION
 ############################################################
-pickle5
 joblib
 pyarrow
 fastparquet
@@ -64,18 +63,11 @@ streamlit-option-menu
 streamlit-aggrid
 
 ############################################################
-# BACKEND / API (OPTIONAL)
-############################################################
-fastapi
-uvicorn
-
-############################################################
-# DATABASE CONNECTORS (OPTIONAL)
+# DATABASE CONNECTORS
 ############################################################
 sqlalchemy
 pymysql
-psycopg2
-sqlite3-binary
+psycopg2-binary
 
 ############################################################
 # LOGGING & MONITORING
