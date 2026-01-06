@@ -1,43 +1,63 @@
-numpy
-pandas
-scipy
-python-dateutil
-matplotlib
-seaborn
-plotly
-altair
-pillow
-scikit-learn
-xgboost
-lightgbm
-catboost
-statsmodels
-category-encoders
-feature-engine
-sklearn-pandas
-imbalanced-learn
-umap-learn
-hdbscan
-joblib==1.3.2
-pyarrow
-fastparquet
-openpyxl
-xlrd
-tqdm
-pyyaml
-requests
-regex
-streamlit
-streamlit-option-menu
-streamlit-aggrid
-sqlalchemy
-pymysql
-psycopg2-binary
-loguru
-rich
-coloredlogs
-scikit-plot
-yellowbrick
-shap
-lime
+# Core
+numpy==2.4.0
+pandas==2.3.3
+scipy==1.11.2
+python-dateutil==2.9.0.post0
 
+# Visualization
+matplotlib==3.8.1
+seaborn==0.12.3
+plotly==5.16.1
+altair==6.0.0
+pillow==12.1.0
+
+# Machine Learning
+scikit-learn==1.3.2
+xgboost==1.7.7
+lightgbm==4.4.1
+catboost==1.2
+statsmodels==0.14.1
+
+# Feature Engineering
+category-encoders==2.7.5
+feature-engine==1.5.0
+sklearn-pandas==2.2.0
+imbalanced-learn==1.11.0
+
+# Dimension Reduction
+umap-learn==0.8.2
+hdbscan==0.8.32
+
+# Storage / Serialization
+joblib==1.3.2
+pyarrow==12.0.1
+fastparquet==2023.12.0
+openpyxl==3.1.3
+xlrd==2.0.1
+
+# Utilities
+tqdm==4.66.1
+pyyaml==6.0
+requests==2.32.5
+regex==2023.8.8
+
+# Streamlit
+streamlit==1.52.2
+streamlit-option-menu==0.5.1
+streamlit-aggrid==0.4.4
+
+# Database
+sqlalchemy==2.0.21
+pymysql==1.1.1
+psycopg2-binary==2.9.7
+
+# Logging
+loguru==0.7.2
+rich==13.6.0
+coloredlogs==15.0.1
+
+# Model Explainability
+scikit-plot==0.3.7
+yellowbrick==1.5
+shap==0.42.1
+lime==0.2.2.1
