@@ -16,7 +16,7 @@ altair
 pillow
 
 ############################################################
-# MACHINE LEARNING ALGORITHMS
+# MACHINE LEARNING
 ############################################################
 scikit-learn
 xgboost
@@ -25,7 +25,7 @@ catboost
 statsmodels
 
 ############################################################
-# FEATURE ENGINEERING & ENCODERS
+# FEATURE ENGINEERING
 ############################################################
 category-encoders
 feature-engine
@@ -48,7 +48,7 @@ openpyxl
 xlrd
 
 ############################################################
-# DATA PROCESSING UTILITIES
+# UTILITIES
 ############################################################
 tqdm
 pyyaml
@@ -56,28 +56,28 @@ requests
 regex
 
 ############################################################
-# STREAMLIT APP & UI
+# STREAMLIT
 ############################################################
 streamlit
 streamlit-option-menu
 streamlit-aggrid
 
 ############################################################
-# DATABASE CONNECTORS
+# DATABASE
 ############################################################
 sqlalchemy
 pymysql
 psycopg2-binary
 
 ############################################################
-# LOGGING & MONITORING
+# LOGGING
 ############################################################
 loguru
 rich
 coloredlogs
 
 ############################################################
-# MODEL EVALUATION & EXPLAINABILITY
+# EVALUATION & EXPLAINABILITY
 ############################################################
 scikit-plot
 yellowbrick
