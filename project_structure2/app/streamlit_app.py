@@ -118,9 +118,11 @@ else:
 # --------------------------------------------------------------
 # Paths
 # --------------------------------------------------------------
-BASE_DIR = r"C:\Users\user\Downloads\project_structure"
-PREPROCESSED_DIR = os.path.join(BASE_DIR, "data", "preprocessed")
-MODELS_DIR = os.path.join(BASE_DIR, "models", "saved_models")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+PREPROCESSED_DIR = BASE_DIR / "data" / "preprocessed"
+MODELS_DIR = BASE_DIR / "models" / "saved_models"
 
 # --------------------------------------------------------------
 # Utilities
@@ -556,3 +558,4 @@ I appreciate your thoughts and feedback that help improve this project.
 # venv\Scripts\activate.bat                          ----------------
 # streamlit run streamlit_app.py                     ----------------
 # -------------------------------------------------------------------
+
